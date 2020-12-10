@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF2D68FE257E255A0082E85D /* 2TreeNodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2D68FD257E255A0082E85D /* 2TreeNodeViewController.swift */; };
+		FF2D6901257E257F0082E85D /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2D6900257E257F0082E85D /* DynamicViewController.swift */; };
+		FF3F5D212580674400BEC18D /* BFSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F5D202580674400BEC18D /* BFSViewController.swift */; };
+		FF3F5D25258067B600BEC18D /* DFSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F5D24258067B600BEC18D /* DFSViewController.swift */; };
+		FF3F5D2A258079E100BEC18D /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F5D29258079E100BEC18D /* BinarySearchViewController.swift */; };
 		FF640C4D2579D5C40019EE65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF640C4C2579D5C40019EE65 /* AppDelegate.swift */; };
 		FF640C4F2579D5C40019EE65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF640C4E2579D5C40019EE65 /* SceneDelegate.swift */; };
 		FF640C512579D5C40019EE65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF640C502579D5C40019EE65 /* ViewController.swift */; };
 		FF640C542579D5C40019EE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF640C522579D5C40019EE65 /* Main.storyboard */; };
 		FF640C562579D5C50019EE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF640C552579D5C50019EE65 /* Assets.xcassets */; };
 		FF640C592579D5C50019EE65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF640C572579D5C50019EE65 /* LaunchScreen.storyboard */; };
+		FF640C692579D9790019EE65 /* DataStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF640C682579D9790019EE65 /* DataStructViewController.swift */; };
+		FF640C6D2579D9A40019EE65 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF640C6C2579D9A40019EE65 /* BaseViewController.swift */; };
+		FF66442A257F1A2D0015F497 /* BacktractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF664429257F1A2D0015F497 /* BacktractViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF2D68FD257E255A0082E85D /* 2TreeNodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2TreeNodeViewController.swift; sourceTree = "<group>"; };
+		FF2D6900257E257F0082E85D /* DynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
+		FF3F5D202580674400BEC18D /* BFSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSViewController.swift; sourceTree = "<group>"; };
+		FF3F5D24258067B600BEC18D /* DFSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFSViewController.swift; sourceTree = "<group>"; };
+		FF3F5D29258079E100BEC18D /* BinarySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
+		FF3F5D2D25809C4B00BEC18D /* BinarySearch.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BinarySearch.md; sourceTree = "<group>"; };
+		FF3F5D2F25809D1A00BEC18D /* DFS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DFS.md; sourceTree = "<group>"; };
+		FF3F5D3025809D5E00BEC18D /* BFS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BFS.md; sourceTree = "<group>"; };
+		FF3F5D3125809DA000BEC18D /* Backtract.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Backtract.md; sourceTree = "<group>"; };
+		FF3F5D3225809DFF00BEC18D /* Dynamic.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Dynamic.md; sourceTree = "<group>"; };
+		FF3F5D3325809E2C00BEC18D /* TreeNode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TreeNode.md; sourceTree = "<group>"; };
+		FF3F5D3425809E4C00BEC18D /* DataStruct.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DataStruct.md; sourceTree = "<group>"; };
 		FF640C492579D5C40019EE65 /* HDAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF640C4C2579D5C40019EE65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF640C4E2579D5C40019EE65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,9 @@
 		FF640C552579D5C50019EE65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF640C582579D5C50019EE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF640C5A2579D5C50019EE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF640C682579D9790019EE65 /* DataStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructViewController.swift; sourceTree = "<group>"; };
+		FF640C6C2579D9A40019EE65 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FF664429257F1A2D0015F497 /* BacktractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacktractViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +60,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF2D68FB257E23A80082E85D /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D68FD257E255A0082E85D /* 2TreeNodeViewController.swift */,
+				FF3F5D3325809E2C00BEC18D /* TreeNode.md */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		FF2D68FC257E24C60082E85D /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D6900257E257F0082E85D /* DynamicViewController.swift */,
+				FF3F5D3225809DFF00BEC18D /* Dynamic.md */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		FF3F5D23258067A100BEC18D /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				FF3F5D24258067B600BEC18D /* DFSViewController.swift */,
+				FF3F5D2F25809D1A00BEC18D /* DFS.md */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
+		FF3F5D28258079BA00BEC18D /* 二分搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				FF3F5D29258079E100BEC18D /* BinarySearchViewController.swift */,
+				FF3F5D2D25809C4B00BEC18D /* BinarySearch.md */,
+			);
+			path = "二分搜索";
+			sourceTree = "<group>";
+		};
 		FF640C402579D5C40019EE65 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +115,50 @@
 		FF640C4B2579D5C40019EE65 /* HDAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FF3F5D28258079BA00BEC18D /* 二分搜索 */,
+				FF3F5D23258067A100BEC18D /* DFS */,
+				FF664428257F121D0015F497 /* BFS */,
+				FF664427257F12060015F497 /* 回溯 */,
+				FF2D68FC257E24C60082E85D /* 动态规划 */,
+				FF2D68FB257E23A80082E85D /* 二叉树 */,
+				FF640C672579D8D10019EE65 /* 数据结构 */,
 				FF640C4C2579D5C40019EE65 /* AppDelegate.swift */,
 				FF640C4E2579D5C40019EE65 /* SceneDelegate.swift */,
 				FF640C502579D5C40019EE65 /* ViewController.swift */,
+				FF640C6C2579D9A40019EE65 /* BaseViewController.swift */,
 				FF640C522579D5C40019EE65 /* Main.storyboard */,
 				FF640C552579D5C50019EE65 /* Assets.xcassets */,
 				FF640C572579D5C50019EE65 /* LaunchScreen.storyboard */,
 				FF640C5A2579D5C50019EE65 /* Info.plist */,
 			);
 			path = HDAlgorithm;
+			sourceTree = "<group>";
+		};
+		FF640C672579D8D10019EE65 /* 数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				FF640C682579D9790019EE65 /* DataStructViewController.swift */,
+				FF3F5D3425809E4C00BEC18D /* DataStruct.md */,
+			);
+			path = "数据结构";
+			sourceTree = "<group>";
+		};
+		FF664427257F12060015F497 /* 回溯 */ = {
+			isa = PBXGroup;
+			children = (
+				FF664429257F1A2D0015F497 /* BacktractViewController.swift */,
+				FF3F5D3125809DA000BEC18D /* Backtract.md */,
+			);
+			path = "回溯";
+			sourceTree = "<group>";
+		};
+		FF664428257F121D0015F497 /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				FF3F5D202580674400BEC18D /* BFSViewController.swift */,
+				FF3F5D3025809D5E00BEC18D /* BFS.md */,
+			);
+			path = BFS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +231,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3F5D25258067B600BEC18D /* DFSViewController.swift in Sources */,
+				FF3F5D212580674400BEC18D /* BFSViewController.swift in Sources */,
+				FF640C6D2579D9A40019EE65 /* BaseViewController.swift in Sources */,
 				FF640C512579D5C40019EE65 /* ViewController.swift in Sources */,
 				FF640C4D2579D5C40019EE65 /* AppDelegate.swift in Sources */,
 				FF640C4F2579D5C40019EE65 /* SceneDelegate.swift in Sources */,
+				FF3F5D2A258079E100BEC18D /* BinarySearchViewController.swift in Sources */,
+				FF2D6901257E257F0082E85D /* DynamicViewController.swift in Sources */,
+				FF640C692579D9790019EE65 /* DataStructViewController.swift in Sources */,
+				FF66442A257F1A2D0015F497 /* BacktractViewController.swift in Sources */,
+				FF2D68FE257E255A0082E85D /* 2TreeNodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -296,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rockest.com.HDAlgorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rockest.com.HDAlgorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
