@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -204,6 +204,9 @@
 				Base,
 			);
 			mainGroup = FF640C402579D5C40019EE65;
+			packageReferences = (
+				FF6AAF6525C540AD000232B3 /* XCRemoteSwiftPackageReference "TwitterTextEditor" */,
+			);
 			productRefGroup = FF640C4A2579D5C40019EE65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -443,6 +446,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF6AAF6525C540AD000232B3 /* XCRemoteSwiftPackageReference "TwitterTextEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twitter/TwitterTextEditor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = FF640C412579D5C40019EE65 /* Project object */;
 }
