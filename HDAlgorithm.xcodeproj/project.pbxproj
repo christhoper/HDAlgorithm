@@ -21,11 +21,14 @@
 		FF640C692579D9790019EE65 /* DataStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF640C682579D9790019EE65 /* DataStructViewController.swift */; };
 		FF640C6D2579D9A40019EE65 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF640C6C2579D9A40019EE65 /* BaseViewController.swift */; };
 		FF66442A257F1A2D0015F497 /* BacktractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF664429257F1A2D0015F497 /* BacktractViewController.swift */; };
+		FFFEF8C327BC93C40012BB5B /* SourtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFEF8C227BC93C40012BB5B /* SourtViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF2D68FD257E255A0082E85D /* 2TreeNodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2TreeNodeViewController.swift; sourceTree = "<group>"; };
 		FF2D6900257E257F0082E85D /* DynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
+		FF2EFD7E264398C20000AAF4 /* 链表反转.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "链表反转.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF2EFE11264408E10000AAF4 /* 回文链表.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "回文链表.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FF3F5D202580674400BEC18D /* BFSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFSViewController.swift; sourceTree = "<group>"; };
 		FF3F5D24258067B600BEC18D /* DFSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFSViewController.swift; sourceTree = "<group>"; };
 		FF3F5D29258079E100BEC18D /* BinarySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,10 @@
 		FF640C682579D9790019EE65 /* DataStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructViewController.swift; sourceTree = "<group>"; };
 		FF640C6C2579D9A40019EE65 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		FF664429257F1A2D0015F497 /* BacktractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacktractViewController.swift; sourceTree = "<group>"; };
+		FF824692264911A20086FD1B /* 10种常见数据结构.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10种常见数据结构.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF82469326494EFA0086FD1B /* 数组.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "数组.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF82469426494F0A0086FD1B /* 链表.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "链表.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FFFEF8C227BC93C40012BB5B /* SourtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourtViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +83,15 @@
 				FF3F5D3225809DFF00BEC18D /* Dynamic.md */,
 			);
 			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		FF2EFD7D2643987D0000AAF4 /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				FF2EFD7E264398C20000AAF4 /* 链表反转.playground */,
+				FF2EFE11264408E10000AAF4 /* 回文链表.playground */,
+			);
+			path = "链表";
 			sourceTree = "<group>";
 		};
 		FF3F5D23258067A100BEC18D /* DFS */ = {
@@ -115,6 +131,9 @@
 		FF640C4B2579D5C40019EE65 /* HDAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FFEDCF4727C38A3F00D086BD /* 散列表 */,
+				FFFEF8C127BC93990012BB5B /* 排序 */,
+				FF2EFD7D2643987D0000AAF4 /* 链表 */,
 				FF3F5D28258079BA00BEC18D /* 二分搜索 */,
 				FF3F5D23258067A100BEC18D /* DFS */,
 				FF664428257F121D0015F497 /* BFS */,
@@ -139,6 +158,9 @@
 			children = (
 				FF640C682579D9790019EE65 /* DataStructViewController.swift */,
 				FF3F5D3425809E4C00BEC18D /* DataStruct.md */,
+				FF824692264911A20086FD1B /* 10种常见数据结构.playground */,
+				FF82469326494EFA0086FD1B /* 数组.playground */,
+				FF82469426494F0A0086FD1B /* 链表.playground */,
 			);
 			path = "数据结构";
 			sourceTree = "<group>";
@@ -159,6 +181,21 @@
 				FF3F5D3025809D5E00BEC18D /* BFS.md */,
 			);
 			path = BFS;
+			sourceTree = "<group>";
+		};
+		FFEDCF4727C38A3F00D086BD /* 散列表 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "散列表";
+			sourceTree = "<group>";
+		};
+		FFFEF8C127BC93990012BB5B /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				FFFEF8C227BC93C40012BB5B /* SourtViewController.swift */,
+			);
+			path = "排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +275,7 @@
 				FF3F5D212580674400BEC18D /* BFSViewController.swift in Sources */,
 				FF640C6D2579D9A40019EE65 /* BaseViewController.swift in Sources */,
 				FF640C512579D5C40019EE65 /* ViewController.swift in Sources */,
+				FFFEF8C327BC93C40012BB5B /* SourtViewController.swift in Sources */,
 				FF640C4D2579D5C40019EE65 /* AppDelegate.swift in Sources */,
 				FF640C4F2579D5C40019EE65 /* SceneDelegate.swift in Sources */,
 				FF3F5D2A258079E100BEC18D /* BinarySearchViewController.swift in Sources */,

@@ -16,7 +16,8 @@ class ViewController: UIViewController {
                 ("回溯", "BacktractViewController"),
                 ("广度优先搜索", "BFSViewController"),
                 ("深度优先搜索", "DFSViewController"),
-                ("二分查找", "BinarySearchViewController")]
+                ("二分查找", "BinarySearchViewController"),
+                ("排序", "SourtViewController")]
     }
     
     lazy var tableView: UITableView = {

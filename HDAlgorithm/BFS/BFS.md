@@ -18,7 +18,7 @@ int BFS(Node start, Node target) {
     // 避免走回头路（用了集合）
     Set<Node> visited;
     // 将起点加入队列
-    q.offer(start);
+    q.add(start);
     visited.add(start);
     // 记录扩散的步数
     int step = 0;
@@ -33,7 +33,7 @@ int BFS(Node start, Node target) {
         for (Node x: cuurent.adj()) {
             // 如果相邻节点不在避免回头路的集合中
            if (x not in visited) {
-              q.offer(x);
+              q.add(x);
               visited.add(x);
            }
         }
