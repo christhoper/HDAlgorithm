@@ -46,6 +46,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)
+        ViewController.myClass.test()
         var list = [0,0,1,1,1,2,2,3,3,4]
         let result = removeDuplicates(&list)
         print("返回的长度", result, list)
