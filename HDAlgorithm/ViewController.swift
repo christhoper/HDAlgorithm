@@ -45,6 +45,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ViewController.myClass.test()
         view.addSubview(tableView)
         var list = [0,0,1,1,1,2,2,3,3,4]
         let result = removeDuplicates(&list)
