@@ -76,6 +76,7 @@
 		FFD4DAC42B3595A7008D22BF /* 整数反转.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "整数反转.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FFDE5B032993828D004D75CB /* 指针技巧.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "指针技巧.swift"; sourceTree = "<group>"; };
 		FFDE5B0529938D5E004D75CB /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		FFDEFD2B2B561A08003329FF /* 最接近的三数之和.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "最接近的三数之和.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FFEE8ACE2B3ECCB100951D2F /* 字符串转换整数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "字符串转换整数.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FFFEF8C227BC93C40012BB5B /* SourtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourtViewController.swift; sourceTree = "<group>"; };
 		FFFFBB1A2999E287005D7EAA /* 位运算.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "位运算.md"; sourceTree = "<group>"; };
@@ -231,6 +232,7 @@
 				FFEE8ACE2B3ECCB100951D2F /* 字符串转换整数.playground */,
 				FF11E7F52B4E97F6009E0DDA /* 最长公共前缀.playground */,
 				FF11E7F62B4FF464009E0DDA /* 三数之和.playground */,
+				FFDEFD2B2B561A08003329FF /* 最接近的三数之和.playground */,
 			);
 			path = "日常练习";
 			sourceTree = "<group>";
